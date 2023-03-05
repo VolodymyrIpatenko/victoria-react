@@ -12,7 +12,7 @@
         height: auto;
       }
 
-      div {
+      /* div {
         width: 100px;
         height: 100px;
         background-color: teal;
@@ -30,7 +30,7 @@
         100% {
           margin-left: 0px;
         }
-      }
+      } */
     </style>
   </head>
   <body>
@@ -92,5 +92,21 @@
     <img src="./newBar/multipower.jpeg" alt="" />
     <img src="./newBar/pred-tren.jpeg" alt="" />
     <img src="./newBar/pred-tren-second.jpeg" alt="" />
+    <img src="./slider.jpg" alt="" />
+
+    <script>
+      async function func() {
+        console.log('async');
+
+        return 1;
+      }
+
+      console.log(func());
+
+      function fu() {
+        console.log('Not async');
+      }
+      fu();
+    </script>
   </body>
 </html>
